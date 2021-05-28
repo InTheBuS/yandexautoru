@@ -1,0 +1,72 @@
+.bookWrapper {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: box-shadow .2s;
+  cursor: pointer;
+  background: powderblue;
+}
+.bookWrapper:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+.bookImage {
+  min-width: 180px;
+  min-height: 270px;
+  max-width: 180px;
+  max-height: 270px;
+  border-radius: 14px;
+  margin: auto;
+}
+
+.bookInfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+}
+
+.bookInfoName {
+  margin-bottom: 15px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: 42px;
+}
+
+.bookInfoAuthor {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: 42px;
+}
+
+@media(max-width: 450px) {
+  .bookWrapper {
+    width: 345px;
+    font-size: 16px;
+  }
+}
+@media(min-width: 451px) and (max-width: 700px) {
+  .bookWrapper {
+    width: 345px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 701px) and (max-width: 1200px) {
+  .bookWrapper {
+    width: 450px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 1201px) {
+  .bookWrapper {
+    width: 450px;
+    font-size: 18px;
+  }
+}

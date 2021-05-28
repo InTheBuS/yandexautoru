@@ -1,0 +1,45 @@
+.BooksListWrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.BookItems {
+  display: grid;
+  place-items: center;
+  gap: 15px;
+}
+
+@media(max-width: 450px) {
+  .BooksListWrapper {
+    width: 345px;
+  }
+  .BookItems {
+    grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+  }
+}
+@media(min-width: 451px) and (max-width: 700px) {
+  .BooksListWrapper {
+    width: 345px;
+  }
+  .BookItems {
+    grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+  }
+}
+@media (min-width: 701px) and (max-width: 1200px) {
+  .BooksListWrapper {
+    width: 95%;
+    max-width: 1400px;
+  }
+  .BookItems {
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  }
+}
+@media (min-width: 1201px) {
+  .BooksListWrapper {
+    width: 95%;
+    max-width: 1400px;
+  }
+  .BookItems {
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  }
+}

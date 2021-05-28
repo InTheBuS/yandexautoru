@@ -1,0 +1,113 @@
+.modalWrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modalWindow {
+  border-radius: 18px;
+  background: powderblue;
+  display: flex;
+  flex-direction: row;
+}
+
+.modalImage {
+  border-radius: 18px;
+  margin: auto;
+}
+
+.modalInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+  width: 100%;
+}
+.modalCloseButton {
+  align-self: flex-end;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid black;
+  user-select: none;
+  cursor: pointer;
+  transition: background-color .2s;
+}
+.modalCloseButton:hover {
+  background-color: black;
+}
+.modalCloseButton:active {
+  transform: scale(1.2);
+}
+.modalInfoBookName {
+  margin-bottom: 10px;
+}
+.modalInfoAuthorName {
+  margin-bottom: 10px;
+}
+.modalInfoPublicationDate {
+  margin-bottom: 10px;
+}
+.modalInfoPublisher{
+  margin-bottom: 10px;
+}
+.modalInfoIsbn{
+  margin-bottom: 10px;
+}
+@media(max-width: 550px) {
+  .modalWindow {
+    width: 360px;
+    font-size: 14px;
+  }
+  .modalImage {
+    min-width: 192px;
+    max-width: 192px;
+    min-height: 250px;
+    max-height: 250px;
+  }
+  .modalCloseButton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+  }
+}
+@media(min-width: 551px) and (max-width: 850px) {
+  .modalWindow {
+    width: 500px;
+    font-size: 16px;
+  }
+  .modalImage {
+    min-width: 240px;
+    max-width: 240px;
+    min-height: 313px;
+    max-height: 313px;
+  }
+  .modalCloseButton {
+    margin: 2px 0 5px 0;
+    width: 25px;
+    height: 25px;
+  }
+}
+@media (min-width: 851px) {
+  .modalWindow {
+    width: 800px;
+    font-size: 20px;
+  }
+  .modalImage {
+    min-width: 384px;
+    max-width: 384px;
+    min-height: 500px;
+    max-height: 500px;
+  }
+  .modalCloseButton {
+
+  }
+}
