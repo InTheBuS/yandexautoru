@@ -5,13 +5,18 @@ import {
 } from '../../Actions/ActionTypes';
 
 const initialState: BooksListState = {
-  booksData: { numFound: 0, start: 0, docs: [] },
+  booksData: {
+    num_found: 0, numFound: 0, start: 0, docs: [],
+  },
   isFetching: false,
   error: false,
   firstFetchOver: false,
   currentPage: 0,
   lastPage: 0,
 };
+
+const firstPage = 1;
+const maxItemsPerPage = 100;
 
 const BooksReducer:Reducer<BooksListState, BooksListActions> = (state = initialState, action) => {
   switch (action.type) {
@@ -27,6 +32,7 @@ const BooksReducer:Reducer<BooksListState, BooksListActions> = (state = initialS
         ...state,
         isFetching: false,
         error: true,
+        errorMessage: action.error,
         firstFetchOver: true,
         lastPage: 0,
         currentPage: 0,
@@ -34,8 +40,9 @@ const BooksReducer:Reducer<BooksListState, BooksListActions> = (state = initialS
     }
     case BooksActionTypes.GET_BOOKS_LIST_SUCCESS: {
       const { numFound, start } = action.data;
-      const lastPage = numFound ? Math.ceil(numFound / 100) : 0;
-      const currentPage = start ? start / 100 + 1 : 0;
+
+      const lastPage: number = numFound ? Math.ceil(numFound / maxItemsPerPage) : firstPage;
+      const currentPage: number = start ? start / maxItemsPerPage + firstPage : firstPage;
       return {
         ...state,
         isFetching: false,

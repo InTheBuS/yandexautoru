@@ -1,11 +1,9 @@
 import { AnyAction, Dispatch } from 'redux';
-import { ThunkDispatch } from 'redux-thunk';
 import OpenLibraryAPI from '../../../API';
 import {
   BooksActionTypes,
-  IGetBooksListFailure, IGetBooksListStart, IGetBooksListSuccess, BooksResponse, BooksListActions,
+  IGetBooksListFailure, IGetBooksListStart, IGetBooksListSuccess, BooksResponse,
 } from '../ActionTypes';
-import BooksListState from '../../State/BooksListState';
 
 export const getBooksStart = (): IGetBooksListStart => ({
   type: BooksActionTypes.GET_BOOKS_LIST_START,
@@ -26,7 +24,5 @@ export const getBookByBookName = (tittle: string, page: number) => async (dispat
   return new OpenLibraryAPI()
     .getBooks(tittle, page)
     .then((response) => dispatch(getBooksSuccess(response.data)))
-    .catch((error) => dispatch(getBooksFailure(`Could not get characters: ${error.message}`)));
+    .catch((error) => dispatch(getBooksFailure(`Could not get books list: ${error.message}`)));
 };
-
-export type GetBooksThunkDispatch = ThunkDispatch<BooksListState, undefined, BooksListActions>

@@ -7,6 +7,7 @@ type BooksListState = {
   firstFetchOver: boolean,
   currentPage: number,
   lastPage: number,
+  errorMessage?: string
 }
 
 export default BooksListState;

@@ -1,3 +1,6 @@
+import { ThunkDispatch } from 'redux-thunk';
+import BooksListState from '../State/BooksListState';
+
 export enum BooksActionTypes {
   GET_BOOKS_LIST_START = 'GET_BOOKS_LIST_START',
   GET_BOOKS_LIST_SUCCESS = 'GET_BOOKS_LIST_SUCCESS',
@@ -18,6 +21,8 @@ export type bookObject = {
 export type BooksResponse = {
   numFound: number,
   start: number,
+  num_found: number,
+  numFoundExact?: true,
   docs: bookObject[],
 }
 
@@ -34,6 +39,8 @@ export type IGetBooksListSuccess = {
   type: BooksActionTypes.GET_BOOKS_LIST_SUCCESS,
   data: BooksResponse,
 };
+
+export type GetBooksThunkDispatch = ThunkDispatch<BooksListState, undefined, BooksListActions>
 
 export type BooksListActions =
   IGetBooksListStart

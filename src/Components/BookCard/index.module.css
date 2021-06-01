@@ -1,6 +1,6 @@
 .bookWrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   box-sizing: border-box;
   border: 1px solid black;
   border-radius: 16px;
@@ -10,14 +10,14 @@
   background: powderblue;
 }
 .bookWrapper:hover {
-  box-shadow: 0 0 10px rgba(0,0,0,1);
+  box-shadow: 0 0 50px rgba(0,0,0,1);
 }
 .bookImage {
   min-width: 180px;
   min-height: 270px;
   max-width: 180px;
   max-height: 270px;
-  border-radius: 14px;
+  border-radius: 16px 16px 0 0;
   margin: auto;
 }
 
@@ -27,6 +27,7 @@
   width: 100%;
   text-align: left;
   padding: 10px;
+  box-sizing: border-box;
 }
 
 .bookInfoName {
@@ -48,25 +49,21 @@
 
 @media(max-width: 450px) {
   .bookWrapper {
-    width: 345px;
-    font-size: 16px;
+    width: 182px;
   }
 }
-@media(min-width: 451px) and (max-width: 700px) {
+@media(min-width: 451px) and (max-width: 720px) {
   .bookWrapper {
-    width: 345px;
-    font-size: 16px;
+    width: 182px;
   }
 }
-@media (min-width: 701px) and (max-width: 1200px) {
+@media (min-width: 721px) and (max-width: 1200px) {
   .bookWrapper {
-    width: 450px;
-    font-size: 18px;
+    width: 182px;
   }
 }
 @media (min-width: 1201px) {
   .bookWrapper {
-    width: 450px;
-    font-size: 18px;
+    width: 182px;
   }
 }

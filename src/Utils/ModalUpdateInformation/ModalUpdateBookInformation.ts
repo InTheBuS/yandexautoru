@@ -1,7 +1,7 @@
-import { BookInformationType } from '../Components/Modal';
-import { bookInModalType } from '../Components/App';
+import { BookInformationType } from '../../Components/Modal';
+import { bookInModalType } from '../../Components/App';
 
-export function updateInformation(book: bookInModalType): BookInformationType {
+export function updateInformation(book: bookInModalType | undefined = undefined): BookInformationType {
   const newBook: BookInformationType = {
     title: '',
     authorName: '',

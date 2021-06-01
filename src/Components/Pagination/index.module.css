@@ -1,0 +1,36 @@
+.paginationWrapper {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 50px auto;
+  align-items: center;
+  gap: 15px;
+}
+.paginationItemActive {
+  color: #000000;
+  opacity: .5;
+  pointer-events: none;
+}
+.paginationNumber {
+  width: 30px;
+}
+.paginationItem {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.paginationCircle {
+  border-radius: 50%;
+  background-color: white;
+}
+.prevAndNextCircle {
+  background-color: white;
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding: 10px;
+}

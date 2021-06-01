@@ -1,0 +1,37 @@
+.ButtonNormal {
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  user-select:none;
+  transition: background-color .1s;
+}
+.ButtonNormal:hover:enabled {
+  background-color: lightskyblue;
+}
+.ButtonNormal:active:enabled {
+  background-color: dodgerblue;
+}
+@media(max-width: 450px) {
+  .ButtonNormal {
+    width: 70px;
+    margin-left: 10px;
+  }
+}
+@media(min-width: 451px) and (max-width: 720px) {
+  .ButtonNormal {
+    width: 100px;
+    margin-left: 15px;
+  }
+}
+@media (min-width: 721px) and (max-width: 1200px) {
+  .ButtonNormal {
+    width: 150px;
+    margin-left: 15px;
+  }
+}
+@media (min-width: 1201px) {
+  .ButtonNormal {
+    width: 150px;
+    margin-left: 15px;
+  }
+}

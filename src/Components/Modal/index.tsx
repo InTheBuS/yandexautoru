@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import styles from './index.module.css';
 import { setShowModalType, bookInModalType, setBookInModalType } from '../App';
-import { imageSize } from '../../Utils/ImageUrl';
-import { updateInformation } from '../../Utils/ModalUpdateBookInformation';
+import { imageSize } from '../../Utils/ImageUrl/ImageUrl';
+import { updateInformation } from '../../Utils/ModalUpdateInformation/ModalUpdateBookInformation';
 
 type Props = {
   showModal: boolean,
@@ -24,11 +24,13 @@ const Modal: React.FC<Props> = ({
 }: Props) => {
   useEffect(() => {
     if (showModal) {
-      document.body.style.overflow = 'hidden';
+      document.body.style.overflowY = 'hidden';
+      document.documentElement.style.overflowY = 'hidden';
       window.addEventListener('keydown', keyDownModalHandler);
     }
     return () => {
-      document.body.style.overflow = 'unset';
+      document.body.style.overflowY = 'unset';
+      document.documentElement.style.overflowY = 'auto';
       window.removeEventListener('keydown', keyDownModalHandler);
     };
   }, [showModal]);
