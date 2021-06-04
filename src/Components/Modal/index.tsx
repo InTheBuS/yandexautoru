@@ -62,7 +62,9 @@ const Modal: React.FC<Props> = ({
         onClick={(event) => event.stopPropagation()}
         role="presentation"
       >
-        <img className={styles.modalImage} src={bigImage} alt="book" />
+        <div className={styles.modalImageWrapper}>
+          <img className={styles.modalImage} src={bigImage} alt="book" />
+        </div>
         <div className={styles.modalInfoWrapper}>
           <button className={styles.modalCloseButton} type="button" onClick={closeModalHandler}>X</button>
           <div className={styles.modalInfoBookName}>

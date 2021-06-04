@@ -39,7 +39,9 @@ const BookCard: React.FC<Props> = ({
       key={title + authorName + index}
       onClick={openModalHandler}
     >
-      <img alt="book_image" className={styles.bookImage} src={urls[0]} onError={handleImageOnError} />
+      <div className={styles.bookImageWrapper}>
+        <img alt="book_image" className={styles.bookImage} src={urls[0]} onError={handleImageOnError} />
+      </div>
       <div className={styles.bookInfo}>
         <div className={styles.bookInfoName}>{title}</div>
         <div className={styles.bookInfoAuthor}>{authorName}</div>

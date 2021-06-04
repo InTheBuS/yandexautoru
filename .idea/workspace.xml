@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="317a3bc6-6885-4528-bfc7-7531e3ae3047" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Components/BookCard/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BookCard/index.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/BookCard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BookCard/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Modal/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Modal/index.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Modal/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Modal/index.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1siDnwtGjCSi6A8JtgKUXxwlI29" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="ts.external.directory.path" value="C:\Users\freak\WebstormProjects\yandexautoru\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\freak\WebstormProjects\yandexautoru\src\Utils\ModalUpdateInformation" />
+      <recent name="C:\Users\freak\WebstormProjects\yandexautoru\src\Utils\ImageUrl" />
+      <recent name="C:\Users\freak\WebstormProjects\yandexautoru\src\Utils\Debounce" />
+      <recent name="C:\Users\freak\WebstormProjects\yandexautoru\src\Redux\State" />
+      <recent name="C:\Users\freak\WebstormProjects\yandexautoru\src\Redux\Reducers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.ImageUrl.test.ts">
+    <configuration name="ImageUrl.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/Utils/ImageUrl/ImageUrl.test.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ModalUpdateInfo.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/Utils/ModalUpdateInformation/ModalUpdateInfo.test.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration name="action.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/Redux/Actions/Books/action.test.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration name="imageUrl function:" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/Utils/ImageUrl/ImageUrl.text.ts" />
+      <test-names>
+        <test-name value="imageUrl function:" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="reducer.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/Redux/Reducers/Books/reducer.test.ts" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.ImageUrl.test.ts" />
+        <item itemvalue="Jest.action.test.ts" />
+        <item itemvalue="Jest.reducer.test.ts" />
+        <item itemvalue="Jest.ModalUpdateInfo.test.ts" />
+        <item itemvalue="Jest.imageUrl function:" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="317a3bc6-6885-4528-bfc7-7531e3ae3047" name="Default Changelist" comment="" />
+      <created>1621346686398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621346686398</updated>
+      <workItem from="1621346687470" duration="9476000" />
+      <workItem from="1621367991171" duration="2290000" />
+      <workItem from="1621378830311" duration="18000" />
+      <workItem from="1621426560698" duration="6215000" />
+      <workItem from="1621453601278" duration="2444000" />
+      <workItem from="1621503226637" duration="4364000" />
+      <workItem from="1621521269670" duration="8998000" />
+      <workItem from="1621610739136" duration="1170000" />
+      <workItem from="1621611925196" duration="1535000" />
+      <workItem from="1621613485329" duration="13568000" />
+      <workItem from="1621690462283" duration="12357000" />
+      <workItem from="1621783038082" duration="5517000" />
+      <workItem from="1621862660112" duration="11296000" />
+      <workItem from="1621948198787" duration="16907000" />
+      <workItem from="1622040299576" duration="10688000" />
+      <workItem from="1622126543388" duration="4551000" />
+      <workItem from="1622138422891" duration="6675000" />
+      <workItem from="1622217296322" duration="10465000" />
+      <workItem from="1622293753676" duration="22635000" />
+      <workItem from="1622391285473" duration="3483000" />
+      <workItem from="1622396446714" duration="9307000" />
+      <workItem from="1622436683833" duration="1785000" />
+      <workItem from="1622465120762" duration="20796000" />
+      <workItem from="1622501935926" duration="481000" />
+      <workItem from="1622546435819" duration="4163000" />
+      <workItem from="1622791676706" duration="907000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="828" y="412" key="#ESLint" timestamp="1621529591505">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="412" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1621529591505" />
+    <state x="726" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622156206510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="726" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1622156206510" />
+    <state x="788" y="362" key="#com.intellij.ide.actions.DebugLogConfigureAction" timestamp="1621365581560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="788" y="362" key="#com.intellij.ide.actions.DebugLogConfigureAction/0.0.1920.1040@0.0.1920.1040" timestamp="1621365581560" />
+    <state x="810" y="244" key="FileChooserDialogImpl" timestamp="1622555700091">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="810" y="244" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1622555700091" />
+    <state width="1899" height="264" key="GridCell.Tab.0.bottom" timestamp="1622549407430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622549407430" />
+    <state width="1899" height="264" key="GridCell.Tab.0.center" timestamp="1622549407430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622549407430" />
+    <state width="1899" height="264" key="GridCell.Tab.0.left" timestamp="1622549407430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622549407430" />
+    <state width="1899" height="264" key="GridCell.Tab.0.right" timestamp="1622549407430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622549407430" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1622392168508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1622392168508" />
+    <state x="562" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1621706086930">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="562" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1621706086930" />
+    <state x="719" y="243" width="585" height="534" key="find.popup" timestamp="1622548126591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="719" y="243" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622548126591" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1622469364063">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622469364063" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1622392031179">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622392031179" />
+  </component>
+</project>
