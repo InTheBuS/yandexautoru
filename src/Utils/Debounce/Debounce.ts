@@ -1,8 +1,7 @@
-// eslint-disable-next-line @typescript-eslint/ban-types
-export const debounce = (fn: Function, ms = 400): (value: unknown) => void => {
+export const debounce = <CTX, ARGS>(fn: (this: CTX, ...args: ARGS[]) => void, ms = 400)
+  : (this: CTX, ...args: ARGS[]) => void => {
   let timeoutId: ReturnType<typeof setTimeout>;
-  // eslint-disable-next-line func-names
-  return function (this: unknown, ...args: unknown[]) {
+  return function timeoutClear(this: CTX, ...args: ARGS[]) {
     clearTimeout(timeoutId);
     timeoutId = setTimeout(() => fn.apply(this, args), ms);
   };

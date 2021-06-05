@@ -23,10 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="317a3bc6-6885-4528-bfc7-7531e3ae3047" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Components/BookCard/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BookCard/index.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BookCard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BookCard/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Modal/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Modal/index.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Modal/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Modal/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/Debounce/Debounce.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/Debounce/Debounce.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +172,8 @@
       <workItem from="1622465120762" duration="20796000" />
       <workItem from="1622501935926" duration="481000" />
       <workItem from="1622546435819" duration="4163000" />
-      <workItem from="1622791676706" duration="907000" />
+      <workItem from="1622791676706" duration="13884000" />
+      <workItem from="1622886940166" duration="1293000" />
     </task>
     <servers />
   </component>
